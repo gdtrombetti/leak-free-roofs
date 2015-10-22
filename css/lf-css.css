@@ -38,6 +38,26 @@ body {
   font-size: 30px;
   color: white;
 }
+.button-overlay {
+    position: absolute;
+    bottom: 100px;
+    right:10px;
+    width:100px;
+    height:30px;
+}
+.pdf-container {
+    position: relative;
+    display: inline-block;
+}
+#over{
+     position:relative;
+    z-index:2;
+}
+
+iframe{
+   position:relative;
+    z-index:1
+}
 article,
 aside,
 details,

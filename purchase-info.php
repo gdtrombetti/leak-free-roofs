@@ -49,21 +49,21 @@ include 'header.php';
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="inputProvince" class="col-lg-2 control-label"><u>Province/Region</u></label>
+								<label for="inputProvince" class="col-lg-2 control-label"><u>State</u></label>
 								<div class="col-lg-8">
-									<input type="text" size="40" name="province" class="form-control" id="inputProvince" placeholder="Province/Region">
+									<input type="text" size="40" name="state" class="form-control" id="inputState" placeholder="State" required>
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="inputZip" class="col-lg-2 control-label"><u>ZIP*</u></label>
 								<div class="col-lg-8">
-									<input type="text" size="40" name="province" class="form-control" id="inputZip" placeholder="ZIP" required>
+									<input type="text" size="40" name="zip" class="form-control" id="inputZip" placeholder="ZIP" required>
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="inputCountry" class="col-lg-2 control-label"><u>Country*</u></label>
 								<div class="col-lg-8">
-									<select class="form-control" id="country-select">
+									<select name="country" class="form-control" id="country-select">
 										<option>United States</option>
 									</select>
 									<div class="row">
