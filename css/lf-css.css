@@ -37,27 +37,17 @@ body {
 .quoted {
   font-size: 30px;
   color: white;
+} 
+#iframe-div .content{
+  position:absolute;
+  top: 150px;
+  left: 50px;
 }
-.button-overlay {
-    position: absolute;
-    bottom: 100px;
-    right:10px;
-    width:100px;
-    height:30px;
-}
-.pdf-container {
-    position: relative;
-    display: inline-block;
-}
-#over{
-     position:relative;
-    z-index:2;
+#iframe-div {
+  position:relative;
+  
 }
 
-iframe{
-   position:relative;
-    z-index:1
-}
 article,
 aside,
 details,
