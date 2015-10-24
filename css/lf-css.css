@@ -40,12 +40,13 @@ body {
 } 
 #iframe-div .content{
   position:absolute;
-  top: 150px;
-  left: 50px;
+  top: 575px;
+  left: 505px;
+
 }
 #iframe-div {
   position:relative;
-  
+  text-align: center;
 }
 
 article,

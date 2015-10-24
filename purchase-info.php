@@ -49,7 +49,7 @@ include 'header.php';
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="inputProvince" class="col-lg-2 control-label"><u>State</u></label>
+								<label for="inputProvince" class="col-lg-2 control-label"><u>State*</u></label>
 								<div class="col-lg-8">
 									<input type="text" size="40" name="state" class="form-control" id="inputState" placeholder="State" required>
 								</div>
