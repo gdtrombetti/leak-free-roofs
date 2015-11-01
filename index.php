@@ -7,5 +7,6 @@ include 'header.php';
 				<div class="content"><a href="purchase-info.php" class="btn btn-primary btn-lg">Send It Now!</a></div>
 			</div>
 		</div>
+
 <?php
 include 'footer.php';
